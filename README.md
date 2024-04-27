@@ -4,7 +4,6 @@
 A website for a hamburger restaurant where customers may place orders for delectable burgers and beverages. 
 
 
-
 ## Features
 
 - Login and Sigup page 
