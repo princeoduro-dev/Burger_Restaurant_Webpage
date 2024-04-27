@@ -1,0 +1,28 @@
+body{background-image: url(burger-french-fries-plate-with-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .gation{text-align: center;}
+        a{text-decoration: none;
+        padding: 30px;
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        a:hover{padding: 5px;
+            background-color: rgba(255, 68, 0, 0.74);
+            transition: all 0.3s ;
+            border-radius: 10px;}
+            form{
+                margin-right: 71%;
+                margin-left: 12%;
+                margin-top: 0%;}
+                input{margin: 5px;
+                padding: 20px, 10px;
+                height: 23px; width: 100%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                border: none;}
+                input[type=submit]{width: 100%;
+                border-radius: 5px;
+                background-color: rgba(255, 68, 0, 0.658);
+                color: white;
+                border: none;}
+                input[type=submit]:hover{background-color:orangered;
+                cursor: pointer;}

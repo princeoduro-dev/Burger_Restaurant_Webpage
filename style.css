@@ -1,0 +1,26 @@
+body{background-image: url(copy.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;}
+ nav{text-align: center;}
+    a{text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1{margin-left: 70px;
+margin-top: 90px;
+font-size: 42px;
+color: #ffc40c;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+p{margin-left: 60px;
+margin-right: 850px;
+font-size: 20px;
+color: white;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 25px;}
+a:hover{padding: 5px;
+background-color: rgba(255, 68, 0, 0.74);
+transition: all 1s ;
+border-radius: 5px;}
+button:hover{background-color: #ffc40c;}

@@ -1,0 +1,36 @@
+body{background-image: url(top-view-burger-with-french-fries-plate.jpg);
+background-repeat: no-repeat;
+background-size: cover;}
+.gation{text-align: center;}
+    a{text-decoration: none;
+    padding: 30px;
+    color:#28282B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    a:hover{padding: 5px;
+        background-color: rgba(255, 68, 0, 0.74);
+        transition: all 0.3s ;
+        border-radius: 10px;}
+form{
+margin-right: 71%;
+margin-left: 12%;
+margin-top: 0%;}
+input{margin: 5px;
+padding: 20px, 10px;
+height: 23px; width: 100%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: none;}
+input[type=submit]{width: 100%;
+border-radius: 5px;
+background-color: rgba(255, 68, 0, 0.658);
+color: white;
+border: none;}
+input[type=submit]:hover{background-color:orangered;
+cursor: pointer;}
+.sign{
+    margin-left: 10%;
+    margin-right: 80%;
+    margin-top: 1%;
+font-family:Arial, Helvetica, sans-serif;
+color: #28282B;}
+
+

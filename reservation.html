@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy Burger</title>
+    <link rel="icon" type="image/x-icon" href="1 logo.png">
+    <link rel="stylesheet" type="text/css" href="reservation.style.css">
+</head>
+<body>
+    <header>
+        <img style="margin-left: 50px; border-radius: 5px;"  src="1 logo.png" alt="logo" width="50" height="50">
+        <div class="gation">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="reservation.html">Reservation</a>
+            <a href="contact.html">Contact</a>
+            
+           </nav>
+        </div>
+    </header>
+  
+   <div class="box2">
+    
+    <form>
+        <div class="box1">
+            <h1>Reserve Your Table</h1>
+           </div>
+           <h5>To help us serve you more effectively, please fill out the form below completely!</h5>
+           <hr>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="First Name">
+        <input type="text" id="name" placeholder="Last Name"><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="myname@example.com"><br>
+        <label for="phone number">Phone Number:</label>
+        <input type="text"><br>
+        <label for="number of guests">Number of Guests:</label>
+        <input type="number" name="number of guests" id="number of guests"><br>
+        <hr>
+        <label for="date">Date & Time:</label>
+        <input type="datetime-local"><br>
+        <label for="reservation type">Reservation Type:</label>
+        <select name="reservation type" id="reservation type">
+            <option value="reservation type">Select</option>
+            <option value="reservation type">Birthday</option>
+            <option value="reservation type">Wedding</option>
+            <option value="reservation type">Anniversary</option>
+            <option value="reservation type">Dinner</option>
+            <option value="reservation type">Corporate</option>
+            <option value="reservation type">Other</option>
+        </select><br>
+        <label for="any">Any Special Request:</label>
+        <input type="text" id="any" placeholder="Any Special Request"><br>
+        <input type="submit" value="Reserve">
+    </form>
+   </div>
+    
+    
+</body>
+</html>
